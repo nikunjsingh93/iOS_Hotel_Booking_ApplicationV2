@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bookings" representedClassName="Bookings" syncable="YES" codeGenerationType="class">
+        <attribute name="bookingCustAdd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingCustName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingCustPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingFrom" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="bookingName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingOtherCust" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingRoomImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="bookingRoomName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingRoomPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingRoomType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookingTo" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Customers" representedClassName="Customers" syncable="YES" codeGenerationType="class">
+        <attribute name="custAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rooms" representedClassName="Rooms" syncable="YES" codeGenerationType="class">
+        <attribute name="roomFrom" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="roomImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="roomName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomTo" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="roomType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookings" positionX="-36" positionY="27" width="128" height="210"/>
+        <element name="Customers" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Rooms" positionX="-54" positionY="18" width="128" height="135"/>
+    </elements>
+</model>
