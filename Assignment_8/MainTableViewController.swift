@@ -12,7 +12,7 @@ class MainTableViewController: UITableViewController {
     
     
     
-    let URL_HEROES = "https://api.sandbox.amadeus.com/v1.2/hotels/search-circle?apikey=ZSMI69eF32sfJpaYaNAGvZZ01jbWTtfG&latitude=36.0857&longitude=-115.1541&radius=10&check_in=2018-06-15&check_out=2018-06-16";
+    let URL_HEROES = "https://api.sandbox.amadeus.com/v1.2/hotels/search-circle?apikey="SECRET_KEY_HERE"&latitude=36.0857&longitude=-115.1541&radius=10&check_in=2018-06-15&check_out=2018-06-16";
     
     
     func getJsonFromUrl(){
